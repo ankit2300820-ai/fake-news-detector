@@ -1,0 +1,79 @@
+{
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 97.97,
+      "precision": 97.97,
+      "recall": 97.97,
+      "f1": 97.97,
+      "train_seconds": 0.3,
+      "confusion_matrix": [
+        [
+          3447,
+          40
+        ],
+        [
+          58,
+          1285
+        ]
+      ]
+    },
+    "Decision Tree": {
+      "accuracy": 94.33,
+      "precision": 94.35,
+      "recall": 94.33,
+      "f1": 94.34,
+      "train_seconds": 8.2,
+      "confusion_matrix": [
+        [
+          3342,
+          145
+        ],
+        [
+          129,
+          1214
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 97.99,
+      "precision": 97.99,
+      "recall": 97.99,
+      "f1": 97.98,
+      "train_seconds": 11.4,
+      "confusion_matrix": [
+        [
+          3455,
+          32
+        ],
+        [
+          65,
+          1278
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "accuracy": 97.16,
+      "precision": 97.17,
+      "recall": 97.16,
+      "f1": 97.17,
+      "train_seconds": 83.9,
+      "confusion_matrix": [
+        [
+          3416,
+          71
+        ],
+        [
+          66,
+          1277
+        ]
+      ]
+    }
+  },
+  "dataset": {
+    "total": 24147,
+    "fake": 17435,
+    "real": 6712,
+    "train_size": 19317,
+    "test_size": 4830
+  }
+}
