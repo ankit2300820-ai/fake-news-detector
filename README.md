@@ -1,5 +1,5 @@
 # 🔍 TruthLens AI – Fake News Detection System
-
+🚀 **Live Demo:** https://fake-news-detector-nqpb7p9jxmgulzx7sxysca.streamlit.app/
 A Machine Learning web app that checks whether a news article looks **REAL** or **FAKE**.
 Built with Python, Scikit-learn (TF-IDF + 4 models) and Streamlit.
 
